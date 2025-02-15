@@ -1,0 +1,15 @@
+#gridContainer{
+    height:960px;
+    width:960px;
+    display: flex;
+    border:greenyellow solid 10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}   
+.cells{
+    display: inline-block;
+    background-color: blue;
+    border:solid black 3px;
+    box-sizing: border-box;
+}
+
